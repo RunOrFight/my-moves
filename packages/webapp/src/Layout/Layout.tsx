@@ -2,7 +2,7 @@ import classes from "./Layout.module.css";
 import { generatePath, NavLink, Outlet } from "react-router-dom";
 import { FC } from "react";
 import { EMOJI } from "@way-to-bot/shared/src/constants/emoji";
-import { WEBAPP_ROUTES } from "@way-to-bot/shared/src/constants/webappRoutes";
+import { WEBAPP_ROUTES } from "@way-to-bot/shared/constants/webappRoutes";
 import { MenuOutlined } from "@ant-design/icons";
 import { Drawer } from "antd";
 import { useActionCreator } from "../Hooks/UseActionCreator";
